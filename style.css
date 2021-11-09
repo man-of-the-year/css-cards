@@ -145,3 +145,23 @@ body
     color: #fff;
     font-size:1.1em;
 }
+
+
+::-webkit-scrollbar
+{
+    width: 15px;
+    background: #101124;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track
+{
+    border: 1px solid rgba(225, 225, 225, 0.25);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(45deg, #00ffa1, #00ffff);
+    border-radius: 20px;
+}
